@@ -2,7 +2,7 @@
 
 Installation:
 
-    (clone git repo)
+   git clone https://github.com/walteranderson/vim-config.git ~/.vim 
 
 
 Create symlink:
