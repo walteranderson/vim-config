@@ -1,5 +1,7 @@
+""Pathogen
+execute pathogen#infect()
+
 set t_Co=256
-""colorscheme ir_black
 colorscheme Tomorrow-Night-Eighties
 syntax enable
 
