@@ -1,9 +1,10 @@
-""Pathogen
+"Pathogen
 execute pathogen#infect()
 
 set t_Co=256
-colorscheme Tomorrow-Night-Eighties
 syntax enable
+""set background=dark
+colorscheme Tomorrow-Night
 
 set encoding=utf-8
 set nocompatible                " choose no compatibility with legacy vi
@@ -22,5 +23,11 @@ set incsearch                   " incremental searching
 set ignorecase                  " searches are case insensitive...
 set smartcase                   " ... unless they contain at least one capital letter
 
-""vim-javascript
+"" Display line numbers
+set number
 
+"" Show partial commands on last line of window
+set showcmd
+
+"" Change buffers without saving
+set hidden

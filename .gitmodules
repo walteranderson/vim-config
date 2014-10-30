@@ -10,3 +10,6 @@
 [submodule "bundle/YouCompleteMe"]
 	path = bundle/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe
+[submodule "solarized"]
+	path = solarized
+	url = http://github.com/altercation/vim-colors-solarized.git
