@@ -7,9 +7,3 @@
 [submodule "bundle/less"]
 	path = bundle/less
 	url = https://github.com/groenewege/vim-less
-[submodule "bundle/YouCompleteMe"]
-	path = bundle/YouCompleteMe
-	url = https://github.com/Valloric/YouCompleteMe
-[submodule "solarized"]
-	path = solarized
-	url = http://github.com/altercation/vim-colors-solarized.git
