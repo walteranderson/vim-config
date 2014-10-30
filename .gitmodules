@@ -13,3 +13,6 @@
 [submodule "solarized"]
 	path = solarized
 	url = http://github.com/altercation/vim-colors-solarized.git
+[submodule "go"]
+	path = go
+	url = https://github.com/fatih/vim-go.git
