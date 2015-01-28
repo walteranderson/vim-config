@@ -31,3 +31,5 @@ set showcmd
 
 "" Change buffers without saving
 set hidden
+set laststatus=2
+let g:airline#extensions#tabline#enabled = 1
