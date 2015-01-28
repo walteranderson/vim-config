@@ -3,7 +3,6 @@ execute pathogen#infect()
 
 set t_Co=256
 syntax enable
-""set background=dark
 colorscheme Tomorrow-Night
 
 set encoding=utf-8
@@ -31,5 +30,13 @@ set showcmd
 
 "" Change buffers without saving
 set hidden
+
+" vim-airline - status bar
 set laststatus=2
 let g:airline#extensions#tabline#enabled = 1
+
+" nerdtree
+map <C-n> :NERDTreeToggle<CR>
+
+" show dots to indicate indentation level
+set list listchars=tab:»-,trail:·,extends:»,precedes:«
