@@ -37,4 +37,5 @@ let g:airline#extensions#tabline#enabled = 1
 
 " nerdtree
 map <C-n> :NERDTreeToggle<CR>
+let g:NERDTreeShowHidden=1
 
