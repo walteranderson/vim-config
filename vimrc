@@ -38,5 +38,3 @@ let g:airline#extensions#tabline#enabled = 1
 " nerdtree
 map <C-n> :NERDTreeToggle<CR>
 
-" show dots to indicate indentation level
-set list listchars=tab:»-,trail:·,extends:»,precedes:«
