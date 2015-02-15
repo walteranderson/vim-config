@@ -2,6 +2,8 @@
 
 An easy vim environment that supports plugins with the help of [Pathogen](https://github.com/tpope/vim-pathogen) and [git submodules](http://git-scm.com/book/en/v2/Git-Tools-Submodules). For more plugins, visit [vimawesome.com](http://vimawesome.com/).
 
+See my [blog post](http://walteranderson.me/2015/02/01/easy-vim-environment/) explaining the repository.
+
 Clone the repository into the folder ~/.vim
 
     git clone https://github.com/walteranderson/vim-config.git ~/.vim 
