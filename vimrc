@@ -3,7 +3,7 @@ execute pathogen#infect()
 
 set t_Co=256
 syntax enable
-colorscheme Tomorrow-Night
+colorscheme Tomorrow-Night-Eighties
 
 set encoding=utf-8
 set nocompatible                " choose no compatibility with legacy vi
@@ -30,12 +30,3 @@ set showcmd
 
 "" Change buffers without saving
 set hidden
-
-" vim-airline - status bar
-set laststatus=2
-let g:airline#extensions#tabline#enabled = 1
-
-" nerdtree
-map <C-n> :NERDTreeToggle<CR>
-let g:NERDTreeShowHidden=1
-
